@@ -1,7 +1,6 @@
 # E-commerce project
 
-## Build with Python / Django / DRF on backend side
-## and with JavaScript / React on the frontend side
+## Build with Python / Django / DRF on backend side and with JavaScript / React on the frontend side
 
 ## ***Backend***
 
