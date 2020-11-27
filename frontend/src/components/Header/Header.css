@@ -1,0 +1,50 @@
+.header{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+
+.grow{
+  flex-grow: 1;
+}
+
+.MuiAppBar-colorPrimary{
+background-color: transparent !important;
+}
+
+.search {
+  position: relative;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.15);
+  margin-right: 16px;
+  margin-left: 0;
+  width: auto;
+  margin-left: 24px;
+}
+
+
+.search:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.searchIcon {
+  height: 100%;
+  display: flex;
+  padding: 0px 16px;
+  position: absolute;
+  align-items: center;
+  pointer-events: none;
+  justify-content: center;
+}
+
+.searchInput{
+  color: rgba(255, 255, 255, 0.25);
+  width: 100%;
+  padding-left: calc(1em + 32px);
+  padding: 8px 8px 8px 0px;
+  transition: width 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}

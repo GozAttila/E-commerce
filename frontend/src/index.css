@@ -1,24 +1,11 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.margin__right {
+  margin-right: 20px;
 }
 
-#root {
-  background-color: rgb(104, 102, 241);
-  color: aliceblue;
-}
-
-.nav-link {
-  color: white;
-  border: 1px solid white;
-  padding: 1em;
+a:link, a:visited {
+  text-decoration: none;
 }
