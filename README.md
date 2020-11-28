@@ -22,7 +22,7 @@ Activate venv
 
 MacOS or Linux:
 
-`source env/bin/activate`
+`source venv/bin/activate`
 
 Windows:
 
