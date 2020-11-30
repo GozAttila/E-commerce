@@ -8,6 +8,7 @@ import Home from "./Pages/Home/Home";
 import Order from "./Pages/Order/Order";
 import Checkout from "./Pages/Checkout/Checkout";
 import PageNotFound from "./Pages/PageNotFound/PageNotFound";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   useEffect(() => {
@@ -68,10 +69,19 @@ function App() {
             </Elements>
           </Route> */}
 
+        <Route path="/login">
+          <Checkout />
+        </Route>
+
+        <Route path="/logout">
+          <Checkout />
+        </Route>
+
         <Route path="/">
           <PageNotFound />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }
