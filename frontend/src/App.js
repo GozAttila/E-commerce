@@ -5,10 +5,11 @@ import axiosInstance from "./axiosApi";
 
 import Header from "./components/Header/Header";
 import Home from "./Pages/Home/Home";
-import Order from "./Pages/Order/Order";
+// import Order from "./Pages/Order/Order";
 import Checkout from "./Pages/Checkout/Checkout";
 import PageNotFound from "./Pages/PageNotFound/PageNotFound";
 import Footer from "./components/Footer/Footer";
+import CardDetail from "./components/CardDetail/CardDetail";
 
 function App() {
   useEffect(() => {
@@ -50,9 +51,14 @@ function App() {
           <Home />
         </Route>
 
-        <Route path="/order">
-          <Order />
+
+        <Route path="/cardDetail">
+          <CardDetail />
         </Route>
+
+        {/* <Route path="/order">
+          <Order />
+        </Route> */}
 
         {/* <Route path="/login">
             <Login />

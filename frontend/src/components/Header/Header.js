@@ -25,11 +25,17 @@ function Header() {
 
           <div className="grow" />
 
-          <Link to="/order" className="margin__right">
+          <Link to="/carddetail" className="margin__right">
+            <Button variant="outlined" color="primary">
+              CardDetail
+            </Button>
+          </Link>
+
+          {/* <Link to="/order" className="margin__right">
             <Button variant="outlined" color="primary">
               Order
             </Button>
-          </Link>
+          </Link> */}
 
           <Link to='/checkout' className="margin__right">
             <Button variant="outlined" color="primary">
