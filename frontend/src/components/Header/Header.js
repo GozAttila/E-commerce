@@ -25,17 +25,11 @@ function Header() {
 
           <div className="grow" />
 
-          <Link to="/carddetail" className="margin__right">
-            <Button variant="outlined" color="primary">
-              CardDetail
-            </Button>
-          </Link>
-
-          {/* <Link to="/order" className="margin__right">
+          <Link to="/order" className="margin__right">
             <Button variant="outlined" color="primary">
               Order
             </Button>
-          </Link> */}
+          </Link>
 
           <Link to='/checkout' className="margin__right">
             <Button variant="outlined" color="primary">
@@ -48,16 +42,23 @@ function Header() {
               <ShoppingCartIcon />
             </Badge>
           </IconButton>
-          <Tooltip title="Login">
-            <IconButton color="primary">
-              <LockIcon />
-            </IconButton>
-          </Tooltip>
-          <Tooltip title="Logout">
-            <IconButton color="primary">
-              <LockOpenIcon />
-            </IconButton>
-          </Tooltip>
+
+          <Link to='/signin'>
+            <Tooltip title="Login">
+              <IconButton color="primary">
+                <LockIcon />
+              </IconButton>
+            </Tooltip>
+          </Link>
+
+          <Link to='/'>
+            <Tooltip title="Logout">
+              <IconButton color="primary">
+                <LockOpenIcon />
+              </IconButton>
+            </Tooltip>
+          </Link>
+
           <Tooltip title="Profile">
             <IconButton color="primary">
               <AccountCircleIcon />

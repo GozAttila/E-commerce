@@ -10,6 +10,9 @@ import Checkout from "./Pages/Checkout/Checkout";
 import PageNotFound from "./Pages/PageNotFound/PageNotFound";
 import Footer from "./components/Footer/Footer";
 import CardDetail from "./components/CardDetail/CardDetail";
+import Signin from "./Pages/Signin/Signin";
+import Signup from "./Pages/Signup/Signup";
+import ForgotPass from "./Pages/ForgotPass/ForgotPass";
 
 function App() {
   useEffect(() => {
@@ -75,8 +78,16 @@ function App() {
             </Elements>
           </Route> */}
 
-        <Route path="/login">
-          <Checkout />
+        <Route path="/signin">
+          <Signin />
+        </Route>
+
+        <Route path="/signup">
+          <Signup />
+        </Route>
+
+        <Route path="/forgotPass">
+          <ForgotPass />
         </Route>
 
         <Route path="/logout">

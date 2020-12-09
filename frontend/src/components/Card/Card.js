@@ -31,7 +31,7 @@ function MyCard() {
 
   return (
     <Card className={classes.root}>
-      <Link >
+      <Link to="/carddetail" >
 
 
         <CardHeader
